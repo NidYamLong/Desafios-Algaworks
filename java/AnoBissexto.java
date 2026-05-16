@@ -34,7 +34,7 @@ public class AnoBissexto {
         boolean multiploDe400 = (ano % 400 == 0);
         boolean muliploDe4ENaoMultiplo100 = (ano % 4 == 0 && ano % 100 != 0);
 
-        if(multiploDe400 || muliploDe4ENaoMultiplo100) {
+        if (multiploDe400 || muliploDe4ENaoMultiplo100) {
             System.out.printf("%d e bissexto\n", ano);
         } else {
             System.out.printf("%d nao e bissexto\n", ano);

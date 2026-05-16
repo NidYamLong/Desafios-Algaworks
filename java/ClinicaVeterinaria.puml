@@ -1,0 +1,15 @@
+@startuml
+
+class ClinicaVeterinaria {
+}
+
+class Cachorro {
+    -nome: String
+    -raca: String
+    -sexo: char
+    -idade: int
+}
+
+Cachorro --> ClinicaVeterinaria
+
+@enduml

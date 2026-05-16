@@ -41,8 +41,8 @@ public class CalculadoraIMC {
 
         System.out.println();
 
-        if(genero == 'M') {
-            if(imc <= 20.7) {
+        if (genero == 'M') {
+            if (imc <= 20.7) {
                 System.out.println(">> Abaixo do peso");
 
             } else if(imc >= 20.8 && imc <= 26.4) {
@@ -59,7 +59,7 @@ public class CalculadoraIMC {
             }
         }
 
-        if(genero == 'F') {
+        if (genero == 'F') {
             if(imc < 19.1) {
                 System.out.println(">> Abaixo do peso");
 
